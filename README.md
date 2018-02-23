@@ -1,7 +1,10 @@
 # MyPermission
 Android 6.0批量权限申请
 使用方法：
+1、`settings.gradle` 添加`include ':MyPermission'`
+2、`APP build.gradle` 添加 `compile project(':MyPermission')`
 
+```java
 public class MainActivity extends AppCompatActivity {
 
     private static final int REQUEST_CODE = 0; // 请求码
@@ -45,3 +48,4 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
+```
