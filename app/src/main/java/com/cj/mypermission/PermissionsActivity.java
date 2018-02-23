@@ -14,9 +14,11 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 
 /**
- * 权限获取页面
- * <p/>
- * Created by wangchenlong on 16/1/26.
+ * 作者： 陈骏
+ * 创建时间： 2018/2/14
+ * 博客： https://www.jianshu.com/u/c5ada9939f6d
+ * Q Q： 200622550
+ * 作用：权限获取页面
  */
 public class PermissionsActivity extends AppCompatActivity {
 

@@ -1,9 +1,10 @@
-apply plugin: 'com.android.application'
+//apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.cj.mypermission"
+//        applicationId "com.cj.mypermission"
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
